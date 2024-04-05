@@ -1,12 +1,102 @@
+
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>USER-6</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>USER-6</h1>
+    <header>
+      <div id="header-brand">LikeLion Sogang 12th</div>
+      <div class="navigation-menu">
+        <div class="menu-item">About</div>
+        <div class="menu-item">What I like</div>
+        <div class="menu-item">Contact</div>
+      </div>
+    </header>
+    <main>
+      <section id="profile-summary">
+        <h1>나를 소개할게요</h1>
+        <h2>정혜나</h2>
+      </section>
+      <section id="about-me">
+        <article class="simple-profile">
+          <figure class="profile-figure">
+            <img id="article-img" src="./images/backend.png" />
+            <div class="info-label">Position</div>
+            <div class="info-value">Back-End</div>
+          </figure>
+        </article>
+        <article class="simple-profile">
+          <figure class="profile-figure">
+            <img id="article-img" src="./images/business.png" />
+            <div class="info-label">Major</div>
+            <div class="info-value">Business</div>
+          </figure>
+        </article>
+        <article class="simple-profile">
+          <figure class="profile-figure">
+            <img id="article-img" src="./images/mbti.png" />
+            <div class="info-label">MBTI</div>
+            <div class="info-value">ENFJ</div>
+          </figure>
+        </article>
+      </section>
+      <section id="favorite">
+        <h2 class="favorites-title">What I Like</h2>
+        <div class="favorite-gallery">
+          <article class="image-block">
+            <img
+              class="favorite-image"
+              src="./images/movie.png"
+              alt="영화 오만과 편견 포스터"
+            />
+            <figcaption class="image-caption">
+              <div class="caption-title">영화</div>
+              <div class="caption-subtitle">오만과 편견</div>
+            </figcaption>
+          </article>
+          <article class="image-block">
+            <img
+              class="favorite-image"
+              src="./images/artist.png"
+              alt="김동률 사진"
+            />
+            <figcaption class="image-caption">
+              <div class="caption-title">가수</div>
+              <div class="caption-subtitle">김동률</div>
+            </figcaption>
+          </article>
+          <article class="image-block">
+            <img
+              class="favorite-image"
+              src="./images/Webtoon_logo.png"
+              alt="웹툰 사진"
+            />
+            <figcaption class="image-caption">
+              <div class="caption-title">취미</div>
+              <div class="caption-subtitle">웹툰</div>
+            </figcaption>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2 class="footer-heading">Connect with me!</h2>
+      <div class="contact details">
+        <div class="contact-info">Email: 77hannah77@naver.com</div>
+        <p class="copyright">©Hannah Jung.All Rights Reserved.</p>
+        <div class="social-media-links">
+          <a href="https://www.instagram.com/hannah__reve/" target="_blank">
+            <img class="social-icon" src="./images/instagram.svg" />
+          </a>
+          <a href="https://github.com/77hannah77" target="_blank">
+            <img class="social-icon" src="./images/github.svg" />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
